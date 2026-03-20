@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Техника
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наш парк машин</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Экскаваторы",
+              description: "Гусеничные и колёсные экскаваторы 15–50 т для разработки котлованов, траншей и вскрышных работ",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Бульдозеры",
+              description: "Мощные бульдозеры для планировки, срезки и перемещения грунта на больших площадях",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Самосвалы",
+              description: "Карьерные и строительные самосвалы грузоподъёмностью до 90 т для вывоза породы",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Грейдеры и катки",
+              description: "Профилировка дорог, уплотнение грунта и подготовка оснований под строительство",
               direction: "bottom",
             },
           ].map((service, i) => (
